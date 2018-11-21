@@ -1,18 +1,20 @@
 $rootColor: blue;
+$primaryColor: orange;
+$spacing: 1em;
 
 body{
 
 header{
-  color: lighting $rootColor 30%;
+  background: lighting ($rootColor, 30);
 }
 
 
 main{
-  color: lighting $rootColor 30%;
+  background: lighting ($rootColor, 70);
 }
 
 footer{
   
-  color: lighting $rootColor 30%;
+  margin: $spacing;
 }
 }
