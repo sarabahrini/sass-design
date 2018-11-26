@@ -1,20 +1,8 @@
-$rootColor: blue;
-$primaryColor: orange;
-$spacing: 1em;
-
-body{
-
-header{
-  background: lighting ($rootColor, 30);
-}
+@import './_rest.scss';
+@import './_variables.scss';
+@import './_mixins.scss';
+@import './_core.scss';
 
 
-main{
-  background: lighting ($rootColor, 70);
-}
 
-footer{
-  
-  margin: $spacing;
-}
-}
+
