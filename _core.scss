@@ -1,0 +1,16 @@
+body{
+
+header{
+  background: lighting ($rootColor, 30);
+}
+
+
+main{
+  background: lighting ($rootColor, 70);
+}
+
+footer{
+  
+  margin: $spacing;
+}
+}
